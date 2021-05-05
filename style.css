@@ -1,0 +1,91 @@
+html, * , :root,body
+{
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+    border : 0;
+    background-color: #eeeeee;
+}
+body{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+h1 {
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 5em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid #413c69;
+    text-transform: uppercase;
+    color : #413c69;
+   }
+
+table
+{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items : center;
+
+
+}
+tr{
+    width : 100%;
+    display : flex;
+    justify-content: space-around;
+}
+button
+{
+    text-align: center;
+
+    margin : 2vh;
+    background-color: #393e46;
+    height : 8vh;
+    width : 8vh;
+    border-radius : 8vh;
+    color : white;
+    font-size : 5vh;
+    border-bottom : 1vh solid #00adb5;
+}
+input 
+{
+    display : block;
+    margin : 4vh auto;
+    text-align: right;
+    width: 60%;
+    height : 10vh;
+    font-size : 4rem;
+    padding : 0 4vw;
+    border-radius : 0.3vh;
+    background-color : #eeeeee;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+tr.clear
+{
+
+    display : flex;
+}
+img
+{
+    margin : 0;
+}
+button:active
+{
+    margin-bottom : -1vh;
+    border-bottom : none;
+}
+
+footer h3
+{
+    text-align: center;
+}
+
+footer 
+{
+    margin-top : auto;
+    padding : 30px;
+    font-size : 3rem;
+}
